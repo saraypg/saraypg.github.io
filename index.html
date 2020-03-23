@@ -5,22 +5,28 @@
 <title> World Wide web!!</title>
 <style>
     #seccion-1{background-color: hsl(28, 100%, 80%);}
-    #seccion-2{background-color: hsl(0, 0%, 95%);}
-    #seccion-3{background-color:hsl(199, 100%, 90%);}
+    #seccion-2{background-color: hsl(0, 41%, 93%);}
+    #seccion-3{background-color:hsla(197, 25%, 78%, 0.897);}
    #seccion1 {font: 150% sans-serif;}
 #seccion-2{font: bold 90% monospace;}
 #seccion-3{font-family: fantasy;}
 
-spam:hover{color: hsl(0, 100%, 25%);}
-#seccion-2 h2{background-color:hsl(80, 100%, 40%); }
-#seccion-3 a{color: hsl(240, 100%, 20%);}
-.centrado { text-align: center;}
-
-
-
+spam:hover{color: hsl(0, 98%, 19%);}
+#seccion-2 h2{background-color:hsla(80, 66%, 69%, 0.918); }
+#seccion-3 a{color: hsl(240, 68%, 88%);font-size: 15px;}
+.centrado {text-align: center;color:white;background-color: rgba(116, 82, 21, 0.924);text-decoration:none;padding: 14px 25px;text-align:center;display:inline-block;font-size: 15px;}
+.boton{color:white;background-color: rgba(78, 42, 17, 0.863);text-decoration: none;font-family: Arial, Helvetica, sans-serif;padding:14px 25px;text-align: center;display:inline-block;}
+body{background-color: rgba(246, 215, 157, 0.87);color:rgb(54, 52, 52)}
+.boton:hover{color:white;background-color: rgb(73, 15, 46);}
 </style>
 </head>
     <body>
+        <h1 id=inicio>Enlace a todas las secciones de mi página</h1>
+        <ol>
+            <li ><a class=centrado href="#uno">Ejercicios HTML</a></li><br>
+            <li><a class=centrado href="#dos">Ejercicios CCSS</a></li><br>
+            <li><a class=centrado href="#tres">Más etiquetas</a></li><br>
+        </ol>
 
         <div id=seccion-1>
  <h1>Mi trabajo en TICII Saray Pintado González</h1>
@@ -29,31 +35,50 @@ spam:hover{color: hsl(0, 100%, 25%);}
  Me gusta viajar, descubrir nuevas culturas y conocer gente nueva.</p> <spam/>
  <img class=centrado src="imagen-index.jpg" width="200" height="250"/>
  </div>
+ <p><a class=boton href="#inicio">Volver al inicio</a></p>
  <div id=seccion-2>
- <h2>Mis ejercicios de Introducción HTML</h2>
- <a class= centrado href="https://educastur-my.sharepoint.com/:u:/g/personal/saraypg47_educastur_es/EZn0WFdo095OqjR2q1PALwsBm3MFzduCOsVJqQo5YcQBgA?e=zDuoNx"> html-ejerc1-intro</a><br>
- <a class=centrado href="https://educastur-my.sharepoint.com/:u:/g/personal/saraypg47_educastur_es/Ebb9vRRnbx5NiT3V1gtBodgB0pv26-ucvfbdf3gDA5ZTag?e=1DQuK4">html-ejerc2-poema</a><br>
-<a class=centrado href="https://educastur-my.sharepoint.com/:u:/g/personal/saraypg47_educastur_es/EY2nZ0WUJ8hOq1-UCcSgDa8B6bSUcQ5740kZOeSFH52Ckg?e=xsOJ4C">html-ejerc3-enfasis</a><br>
-<a class=centrado href="https://educastur-my.sharepoint.com/:u:/g/personal/saraypg47_educastur_es/EQoSpBUIXppOtkd9_rQbyrIBq7-6SbWmxL86Og3W2cYPJw?e=HJ7xNR">html-ejerc4-listas</a><br>
-<a class=centrado href="https://educastur-my.sharepoint.com/:u:/g/personal/saraypg47_educastur_es/EeCwAyqotmNKp3YEd6Q2BHEBAb5dI9A3RlBM1Nd06M-nhA?e=7VdK7X">html-ejerc5-utf-8</a><br>
-<a class=centrado href="https://educastur-my.sharepoint.com/:u:/g/personal/saraypg47_educastur_es/EavJplixPXNJk1hiltmhRxEBBeAaq5mdSB0rffibW_7Ehg?e=ZOn9xJ">html-ejerc6-img</a><br>
-<a class=centrado href="https://educastur-my.sharepoint.com/:u:/g/personal/saraypg47_educastur_es/ESZN_WWzBx9Buh-_TZRnT_4Buq5q6EMx8PXmqkkHWtX8EA?e=ecrkFL">html-ejerc7-viaje</a><br>
-</div>
+ <h2 id=uno>Mis ejercicios de Introducción HTML</h2>
+ <ol>
+ <li><a class= centrado  href="html-ejerc1-intro.html"> html-ejerc1-intro</a></li><br>
+    <li><a class=centrado  href="html-ejerc2-poema.html">html-ejerc2-poema</a></li><br>
+        <li><a class=centrado  href="html-ejerc3-enfasis.html">html-ejerc3-enfasis</a></li><br>
+            <li><a class=centrado href="html-ejerc4-listas.html">html-ejerc4-listas</a></li><br>
+                <li><a class=centrado href="html-ejerc5-utf-8.html">html-ejerc5-utf-8</a></li><br>
+                    <li><a class=centrado href="html-ejerc6-img.html">html-ejerc6-img</a></li><br>
+<li><a class=centrado href="html-ejerc7-viaje.html">html-ejerc7-viaje</a></li><br>
+</ol>
+</div><br>
+
 <div>
 <h2 class=centrado>web hosting</h2>
 <p>Un host web es una organización que vende o alquila espacio de memoria en sus servidores. El alojamiento web generalmente se realiza en un centro de datos, que proporciona servicios a clientes que les permiten publicar sitios web en Internet. Un servidor web también puede proporcionar espacio en el centro de datos y una conexión a Internet para servidores que son propiedad de otros.<br>
 drivetoweb. es el hosting que yo use. </p>
-</div>
+</div><br>
+<p><a class=boton href="#inicio">Volver al inicio</a></p>
 <div id=seccion-3>
-   <h2>Mis ejercicios de introducción a CSS</h2>
-    <a class=centrado href="html-ejerc8-color.html"> html-ejerc8-color</a><br>
-    <a class=centrado href="html-ejerc9-criatura.html"> html-ejerc9-criatura</a><br>
-    <a class=centrado href="html-ejerc10-criatura2.html"> html-ejerc10-criatura2</a><br>
-    <a class=centrado href="html-ejerc11-formato.html"> html-ejerc11-formato</a><br>
-    <a class=centrado href="html-ejerc12-Olafs.html"> html-ejerc12-olafs</a><br>
-    <a class=centrado href="html-ejerc13-clases.html"> html.ejerc13-clases</a><br>
-    <a class=centrado href="html-ejerc14-desafio-clases.html"> html-ejerc14-desafio-clases</a><br>
-     <a class=centrado href="html-ejerc15-selectores.html"> html-ejerc15-selectores</a><br>
-     <a class=centrado href="html-ejer16.html"> html-ejerc16</a><br>
+    <h2 id=dos>Mis ejercicios de introducción a CSS</h2>
+    <ol>
+    <li><a class=centrado href="html-ejerc8-color.html"> html-ejerc8-color</a></li><br>
+    <li><a class=centrado href="html-ejerc9-criatura.html"> html-ejerc9-criatura</a></li><br>
+    <li><a class=centrado href="html-ejerc10-criatura2.html"> html-ejerc10-criatura2</a></li><br>
+    <li><a class=centrado href="html-ejerc11-formato.html"> html-ejerc11-formato</a></li><br>
+    <li><a class=centrado href="html-ejerc12-Olafs.html"> html-ejerc12-olafs</a></li><br>
+    <li><a class=centrado href="html-ejerc13-clases.html"> html.ejerc13-clases</a></li><br>
+    <li><a class=centrado href="html-ejerc14-desafio-clases.html"> html-ejerc14-desafio-clases</a></li><br>
+    <li><a class=centrado href="html-ejerc15-selectores.html"> html-ejerc15-selectores</a></li><br>
+    <li> <a class=centrado href="html-ejerc16.html"> html-ejerc16</a></li><br>
+</ol>
    
 </div>
+<p><a class=boton href="#inicio">Volver al inicio</a></p>
+<div id=seccion-4>
+    <h2 id=tres>Mis ejercicios de más etiquetas</h2>
+    <ol>
+    <li><a class=centrado href="html-ejerc18-vinculos.html"> html-ejerc18-vinculos</a></li><br>
+    <li><a class=centrado href="html-ejerc19-vinculos_internos.hmtl"> html-ejerc19-vinculos_internos</a></li><br>
+    <li><a class=centrado href="html-ejerc20-tabla.html"> html-ejerc20-tabla</a></li><br>
+    <li><a class=centrado href="html-ejerc21-receta.html"> html-ejerc21-receta</a></li><br>
+</ol>
+    <p><a class=boton href="#inicio">Volver al inicio</a></li></p>  
+</body>
+</html>
