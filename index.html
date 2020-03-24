@@ -1,9 +1,16 @@
 ﻿<!DOCTYPE html>
-<html>
 <head>
 <meta charset="utf-8">
-<title> World Wide web!!</title>
+<title> Index</title>
 <style>
+    .hero-image{background-image: url("fondo6.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}}
     #seccion-1{background-color: hsl(28, 100%, 80%);}
     #seccion-2{background-color: hsl(0, 41%, 93%);}
     #seccion-3{background-color:hsla(197, 25%, 78%, 0.897);}
@@ -20,21 +27,28 @@ body{background-color: rgba(246, 215, 157, 0.87);color:rgb(54, 52, 52)}
 .boton:hover{color:white;background-color: rgb(73, 15, 46);}
 </style>
 </head>
+<header>
     <body>
+        <nav>
         <h1 id=inicio>Enlace a todas las secciones de mi página</h1>
         <ol>
             <li ><a class=centrado href="#uno">Ejercicios HTML</a></li><br>
             <li><a class=centrado href="#dos">Ejercicios CCSS</a></li><br>
             <li><a class=centrado href="#tres">Más etiquetas</a></li><br>
-        </ol>
+            <li><a class=centrado href="#cuatro">La web semántica</a></li><br>
 
-        <div id=seccion-1>
+        </ol>
+    </nav>
+    <main>
+        <section>
+        <div id=seccion-1 class=hero-image>
  <h1>Mi trabajo en TICII Saray Pintado González</h1>
 <spam> <p>Me llamo Saray y tengo 17 años.<br> 
  Actualemente estoy estudiando 2 de bachiller en el IES Fleming aunque anteriormente estudié en el IES La Corredoria y más tarde en el Colegio La Inmaculada. Estoy cursando la modalidad de ciencias sociales, ya que en un futuro me gustaría estudiar la carrera de magisterio y acabar siendo una profesora de educación primaria. <br>
  Me gusta viajar, descubrir nuevas culturas y conocer gente nueva.</p> <spam/>
  <img class=centrado src="imagen-index.jpg" width="200" height="250"/>
  </div>
+ </header>
  <p><a class=boton href="#inicio">Volver al inicio</a></p>
  <div id=seccion-2>
  <h2 id=uno>Mis ejercicios de Introducción HTML</h2>
@@ -47,14 +61,18 @@ body{background-color: rgba(246, 215, 157, 0.87);color:rgb(54, 52, 52)}
                     <li><a class=centrado href="html-ejerc6-img.html">html-ejerc6-img</a></li><br>
 <li><a class=centrado href="html-ejerc7-viaje.html">html-ejerc7-viaje</a></li><br>
 </ol>
-</div><br>
-
+</div>
+</section>
+<br>
+<section>
 <div>
 <h2 class=centrado>web hosting</h2>
 <p>Un host web es una organización que vende o alquila espacio de memoria en sus servidores. El alojamiento web generalmente se realiza en un centro de datos, que proporciona servicios a clientes que les permiten publicar sitios web en Internet. Un servidor web también puede proporcionar espacio en el centro de datos y una conexión a Internet para servidores que son propiedad de otros.<br>
 drivetoweb. es el hosting que yo use. </p>
-</div><br>
+</div>
+</section><br>
 <p><a class=boton href="#inicio">Volver al inicio</a></p>
+<section>
 <div id=seccion-3>
     <h2 id=dos>Mis ejercicios de introducción a CSS</h2>
     <ol>
@@ -70,15 +88,38 @@ drivetoweb. es el hosting que yo use. </p>
 </ol>
    
 </div>
+</section>
 <p><a class=boton href="#inicio">Volver al inicio</a></p>
+<section>
 <div id=seccion-4>
     <h2 id=tres>Mis ejercicios de más etiquetas</h2>
     <ol>
-    <li><a class=centrado href="html-ejerc18-vinculos.html"> html-ejerc18-vinculos</a></li><br>
-    <li><a class=centrado href="html-ejerc19-vinculos_internos"> html-ejerc19-vinculos_internos</a></li><br>
-    <li><a class=centrado href="html-ejerc20-tabla.html"> html-ejerc20-tabla</a></li><br>
-    <li><a class=centrado href="html-ejerc21-receta.html"> html-ejerc21-receta</a></li><br>
+    <li> <a class=centrado href="html-ejerc18-vinculos.html"> html-ejerc18-vinculos</a></li><br>
+    <li> <a class=centrado href="html-ejerc19-vinculos_internos.html"> html-ejerc19-vinculos_internos</a></li><br>
+    <li> <a class=centrado href="html-ejerc20-tabla.html"> html-ejerc20-tabla</a></li><br>
+    <li> <a class=centrado href="html-ejerc21-receta.html"> html-ejerc21-receta</a></li><br>
 </ol>
     <p><a class=boton href="#inicio">Volver al inicio</a></li></p>  
+</div>
+</section>
+<section>
+<div id=seccion-5>
+    <h2 id=cuatro>La web semántica</h2>
+    <ol>
+        <li> <a class=centrado href="html-ejerc24-videos.html">html-ejerc24-videos</a></li><br>
+    </ol>
+
+    <p><a class=boton href="#inicio">Volver al inicio</a></li></p> 
+
+</main>
+</section>
+</div>
+<footer>
+    <p>
+    Realizado por: Saray Pintado<br>
+    Correo electrónico: saraypintado@gmail.com<br>
+    Teléfono:67875769<br></p>
+    <img src="logo.jpg">
+</footer>
 </body>
 </html>
