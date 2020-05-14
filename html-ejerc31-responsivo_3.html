@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title>Responsivo_3</title>
+        <style>
+            #contenedor{display: grid;grid-template-rows: 200px 200px; grid-template-columns: 400px 400px; border-style: solid; border-radius: 3px; border-color: black; height: 400px; width: 800px}
+            #elemento2{ background-color: rgb(173, 152, 156); border-style: solid; border-radius: 3px; border-color: rgb(195, 63, 85); align-self: stretch;justify-self: stretch;  }
+            #elemento1{ background-color: rgb(132, 160, 170); border-style: solid;border-radius: 3px; border-color: rgb(18, 87, 110); align-self: end; justify-self: start; }
+            #elemento3{ background-color: rgb(81, 133, 81); border-style: solid; border-radius: 3px; border-color: rgb(4, 46, 4); grid-column: span 2; align-self: center; justify-self: center;}
+            p{ margin-top: 5px;margin-left: 5px;font-family: Arial, Helvetica, sans-serif; }
+            body{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+        </style>
+	</head>
+	<body>
+        <div id="contenedor">
+            <section id="elemento2">
+                <p>
+                    align-self: stretch;<br>
+                justify-self: stretch;
+                </p>
+            </section>
+            <section id="elemento1">
+                <p>
+                    align-self: end; <br>
+                     justify-self: start;
+                </p>
+            </section>
+            <section id="elemento3">
+                <p>
+                    grid-column: span 2;<br>
+             align-self: center;<br>
+                  justify-self: center;<br>
+                </p>
+            </section>
+        </div>
+    </body>
+</html>

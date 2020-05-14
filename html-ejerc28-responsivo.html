@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsivo</title>
+        <style>
+            header{grid-area: header;background-color: rgb(230, 187, 194);border-style: solid; border-radius: 3px;border-color: rgb(253, 138, 157); margin-top: 3px; margin-right: 3px;margin-left: 3px;margin-bottom: 3px;font-family: impact;}
+            aside{grid-area: aside; background-color: rgb(171, 236, 236); border-style: solid; border-radius: 3px; border-color: rgb(2, 92, 92); margin-top: 3px;margin-right: 3px; margin-left: 3px;margin-bottom: 3px;font-family: impact;}
+            main{ grid-area: main; background-color: rgb(116, 146, 70); border-style: solid; border-radius: 3px; border-color: rgb(75, 124, 2); margin-top: 3px; margin-right: 3px; margin-left: 3px; margin-bottom: 3px;font-family: impact;}
+            footer{ grid-area: footer; background-color: rgb(238, 238, 146); border-style: solid; border-radius: 3px; border-color: yellow; margin-top: 3px; margin-right: 3px; margin-left: 3px; margin-bottom: 3px;font-family: impact; }
+            body{ display: grid; grid-gap: 10px 20px; grid-template-columns: 1fr 200px; grid-template-rows: 100px 1fr auto; grid-template-areas:"header header" "main aside" "footer aside"; border-style: solid; border-radius: 3px; border-color: black; }
+            @media (max-width: 600px) { body{ display: grid; grid-gap: 0; grid-template-rows: auto 1fr auto auto; grid-template-columns: 1fr; grid-template-areas: "header""main" "aside""footer";}}
+            #preguntas{font-family: 'Times New Roman', Times, serif;}
+        </style>
+	</head>
+	<body>
+        <header>
+            header
+        </header>
+        <aside>
+            aside
+        </aside>
+        <main>
+            content
+            <section>
+                <h1>px</h1>
+                <p>Pixeles</p>
+                <h1>fr</h1>
+                <p>Fracciones </p>
+                <h1>em</h1>
+                <p>Las dimensiones de la fuente lo indican</p>
+                <h1>vw</h1>
+                <p>1% de la anchura de la ventana</p>
+                <h1>vh</h1>
+                <p>1% de la altura de la ventana</p>
+                <h1>%</h1>
+                <p>Tanto por ciento de las dimensiones </p>
+                <h1>auto</h1>
+                <p>Automaticamente por el navegador</p>
+            </section>
+            <section id="preguntas">
+                <h1>Correcto</h1>
+                <p>Es correcto porque cada parte de la pagina necesita un codigo diferente como hemos indicado antes.</p>
+            </section>
+            <section id="preguntas">
+                <h1>Como cambiamos el codigo</h1>
+                <p>Cambian los tamaños y la distribucion de las areas para que se adapten a las pantallas de los dispositivos.</p>
+            </section>
+        </main>
+        <footer>
+            footer
+        </footer>
+	</body>
+</html>
